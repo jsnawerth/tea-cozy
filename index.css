@@ -1,0 +1,115 @@
+*{
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    margin: 20px;
+    min-width: 1200px;
+}
+h2{font-size: 30px;
+}
+h3{
+    font-size: 22px;
+}
+h4{
+    margin-top: 10px;
+    font-size: 22px;
+}
+h5{
+    font-size: 18px;
+}
+p{
+    font-size: 19px;
+}
+.left{text-align: left;}
+.right{text-align: right;}
+.center{text-align: center;}
+.bg-black{background-color: black;}
+/* Header */
+header{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+    top:0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    list-style: none;
+}
+header li{
+    display: inline;
+    margin-right: 30px;
+}
+.logo{
+    height: 50px;
+}
+/*Mission Section*/
+.top-banner{
+    background-image: url(./img/img-mission-background.jpg);
+    height: 700px;
+}
+.banner{
+    max-width: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mission{
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-grow: 1;
+    padding: 20px ;
+}
+/*Featured Section*/
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    width: 1000px;
+}
+.img img{
+    height: 200px;
+    width: 300px;
+}
+.group{
+    display: flex;
+}
+.img{margin: 15px;}
+
+/*Locations */
+.container{
+    display: flex;
+    margin-top: 15px;
+}
+.item{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 280px;
+}
+.m-right{margin-right: 40px;}
+
+.bottom-banner{
+    background-image: url(./img/img-locations-background.jpg);
+    height: 500px;
+}
+
+/*Contact Section*/
+.contact{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
