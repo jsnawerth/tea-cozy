@@ -3,17 +3,17 @@
     color: seashell;
     margin: 0;
     padding: 0;
+    font-size: 22px;
 }
 
 body{
     background-color: black;
     margin: 20px;
-    min-width: 1200px;
 }
-h2{font-size: 30px;
+h2{font-size: 36px;
 }
 h3{
-    font-size: 22px;
+    font-size: 26px;
 }
 h4{
     margin-top: 10px;
@@ -72,25 +72,41 @@ header li{
 }
 /*Featured Section*/
 .display{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 50px auto;
-    width: 1000px;
+    max-width: 1000px;
 }
-.img img{
-    height: 200px;
+
+figure img {
     width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+figcaption {
+    text-align: center;
+    margin-top: 10px;
 }
 .group{
     display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
 }
-.img{margin: 15px;}
 
 /*Locations */
+.loc{
+    padding: 15px;
+}
 .container{
     display: flex;
-    margin-top: 15px;
+    margin: 15px auto;
+    max-width: 1050px;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .item{
     width: 300px;
@@ -98,12 +114,14 @@ header li{
     flex-direction: column;
     justify-content: space-around;
     height: 280px;
+    opacity: 0.9;
 }
-.m-right{margin-right: 40px;}
 
 .bottom-banner{
     background-image: url(./img/img-locations-background.jpg);
-    height: 500px;
+    background-size: cover;
+    min-height: 500px;
+    padding: 30px;
 }
 
 /*Contact Section*/
