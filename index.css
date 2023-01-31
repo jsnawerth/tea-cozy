@@ -9,6 +9,7 @@
 body{
     background-color: black;
     margin: 20px;
+    min-width: 700px;
 }
 h2{font-size: 36px;
 }
